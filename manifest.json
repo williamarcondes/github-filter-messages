@@ -1,0 +1,17 @@
+{
+  "name": "PR Messages",
+  "version": "1.0",
+  "description": "Hides Github Actions, to make team commits and comments easier to read",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "Click to show an alert"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "logo.png",
+    "128": "logo.png"
+  }
+}
